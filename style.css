@@ -1,4 +1,4 @@
-/* KOALESI ADVERTISING â VISUAL SYSTEM
+/* KOALESI ADVERTISING Ã¢ÂÂ VISUAL SYSTEM
    Ubah warna utama di :root. Biru + putih adalah identitas utama.
    Gradient dipakai sebagai aksen, bukan memenuhi seluruh halaman. */
 :root{--deep:#063B68;--blue:#087FD1;--bright:#19A1F2;--pale:#DCEFFA;--navy:#071A2B;--white:#fff;--soft:#F4F8FB;--text:#102A3E;--muted:#637789;--red:#E43D3D;--line:rgba(6,59,104,.12);--shadow:0 22px 60px rgba(6,59,104,.10);--radius:24px;--max:1180px}
@@ -33,3 +33,6 @@ footer{background:var(--navy);color:rgba(255,255,255,.72);padding:60px 0 20px}.f
 
 /* SERVICE SHOWCASE */
 .service{position:relative;overflow:hidden}.service-top{display:flex;align-items:center;justify-content:space-between;gap:12px}.service-tag{font-size:.58rem;font-weight:900;letter-spacing:.14em;color:var(--blue);padding:6px 9px;border-radius:999px;background:var(--pale)}.service-gallery{position:relative;margin:18px -1px 20px;border-radius:16px;overflow:hidden;background:var(--soft);border:1px solid var(--line);transition:.25s ease}.service-track{display:grid;grid-auto-flow:column;grid-auto-columns:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.service-track::-webkit-scrollbar{display:none}.service-track img{width:100%;height:150px;object-fit:cover;display:block;scroll-snap-align:start}.gallery-note{position:absolute;right:10px;bottom:10px;padding:6px 9px;border-radius:999px;background:rgba(7,26,43,.78);color:#fff;font-size:.6rem;font-weight:800;letter-spacing:.02em}.service:hover .service-gallery{transform:translateY(-2px);box-shadow:0 14px 32px rgba(6,59,104,.10)}@media(max-width:700px){.service-track img{height:135px}.service-gallery{margin-top:15px}}
+
+/* Billboard map image */
+.network-map-image{position:absolute;inset:18px;width:calc(100% - 36px);height:calc(100% - 36px);object-fit:contain;z-index:2;display:block;border-radius:22px}.network-map .map-label{z-index:3;text-shadow:0 1px 4px rgba(0,0,0,.35)}
