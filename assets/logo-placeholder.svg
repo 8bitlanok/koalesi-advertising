@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="40" fill="#DCEFFA"/>
+  <rect x="30" y="30" width="740" height="440" rx="28" fill="none" stroke="#087FD1" stroke-width="4" stroke-dasharray="12 12"/>
+  <text x="400" y="235" text-anchor="middle" fill="#063B68" font-family="Arial, sans-serif" font-size="42" font-weight="700">LOGO KOALISI</text>
+  <text x="400" y="285" text-anchor="middle" fill="#607487" font-family="Arial, sans-serif" font-size="22">Ganti dengan logo asli perusahaan</text>
+</svg>
