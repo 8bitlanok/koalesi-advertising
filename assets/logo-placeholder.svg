@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-  <rect width="800" height="500" rx="40" fill="#DCEFFA"/>
-  <rect x="30" y="30" width="740" height="440" rx="28" fill="none" stroke="#087FD1" stroke-width="4" stroke-dasharray="12 12"/>
-  <text x="400" y="235" text-anchor="middle" fill="#063B68" font-family="Arial, sans-serif" font-size="42" font-weight="700">LOGO KOALISI</text>
-  <text x="400" y="285" text-anchor="middle" fill="#607487" font-family="Arial, sans-serif" font-size="22">Ganti dengan logo asli perusahaan</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500 rx="42" fill="#DCEFFA"/><rect x="30" y="30" width="740" height="440" rx="32" fill="#fff" stroke="#087FD1" stroke-width="5" stroke-dasharray="14 12"/><circle cx="330" cy="250" r="75" fill="#063B68"/><path d="M285 250l45-45 45 45-45 45z" fill="#19A1F2"/><text x="440" y="235" font-family="Arial" font-size="42" font-weight="700" fill="#063B68">KOALESI</text><text x="440" y="275" font-family="Arial" font-size="21" font-weight="700" fill="#087FD1">LOGO PLACEHOLDER</text><text x="400" y="420" text-anchor="middle" font-family="Arial" font-size="20" fill="#607487">GANTI DENGAN LOGO ASLI PERUSAHAAN</text></svg>

@@ -1,124 +1,58 @@
-# Koalesi Advertising
+# Koalesi Advertising — Prototype
 
-Prototype website untuk divisi **Koalesi Advertising** dari PT. Koalesi Group Indonesia.
+Prototype digital showroom untuk Koalesi Advertising.
 
-## Tujuan Prototype
+## Status
+Prototype sekarang **sudah lengkap secara visual dan interaktif menggunakan placeholder**.
 
-Website ini dirancang sebagai digital showroom dan lead-generation website untuk:
+### Yang tersedia
+- Hero
+- About
+- 8 service cards
+- Billboard Network
+- 27 data billboard demo untuk menguji filter
+- Filter kota
+- Peta visual placeholder dengan marker
+- Portfolio placeholder
+- Process
+- WhatsApp CTA
+- Instagram
+- Responsive mobile
+- Komentar penjelasan pada kode
 
-- Advertising
-- Billboard
-- Neon Box
-- Signage
-- Display
-- Reklame
-- Banner & Spanduk
-- Shop Sign
-- Branding
+## PENTING: Data Billboard
+27 lokasi di `script.js` adalah **DATA PLACEHOLDER**, bukan data perusahaan.
 
-Fitur utama yang disiapkan adalah **Billboard Network** untuk menampilkan 27 titik billboard Koalesi di Sumatera Utara setelah data asli diberikan.
+Saat data asli diberikan, ganti array `billboardData`. Jangan menggunakan data demo sebagai data publik.
 
-## Struktur
+## PENTING: Asset
+Placeholder berada di:
+- `assets/logo-placeholder.svg`
+- `assets/portfolio/project-01.svg` sampai `project-05.svg`
 
-```
-/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets/
-    └── README.md
-```
+Saat logo asli tersedia, ganti file logo dengan asset resmi perusahaan dan pertahankan nama/path agar HTML tidak perlu diubah.
 
-## Cara Edit
+Foto proyek asli dapat menggantikan SVG portfolio dengan file JPG/PNG/WebP, lalu path pada `index.html` disesuaikan.
 
-### 1. index.html
-Berisi struktur halaman.
+## Cara edit
+### index.html
+Untuk mengubah struktur section dan teks.
 
-Gunakan file ini untuk mengubah:
-- teks
-- section
-- menu navigasi
-- CTA
-- informasi footer
+### style.css
+Untuk warna, layout, typography, spacing, card, responsive.
 
-### 2. style.css
-Berisi seluruh tampilan.
+Warna utama ada di `:root`:
+- `--deep: #063B68`
+- `--blue: #087FD1`
+- `--pale: #DCEFFA`
+- `--navy: #071A2B`
 
-Variabel warna berada di bagian paling atas:
+### script.js
+Untuk interaksi dan data billboard. Bagian paling atas adalah data 27 titik placeholder.
 
-- `--blue-deep`
-- `--blue`
-- `--blue-light`
-- `--navy`
-- `--white`
-
-Jika identitas warna berubah, mulai edit dari bagian tersebut.
-
-### 3. script.js
-Berisi interaksi JavaScript.
-
-**Data billboard sengaja diletakkan di bagian paling atas.**
-
-Saat 27 data asli tersedia, array `billboardData` akan diisi dengan data sebenarnya.
-
-Contoh struktur:
-
-```js
-{
-  id: 1,
-  city: "Nama Kota",
-  address: "Alamat asli",
-  size: "Ukuran",
-  status: "Status jika tersedia"
-}
-```
-
-Jangan memasukkan data yang belum dikonfirmasi.
-
-## Asset Logo
-
-Logo asli Koalesi belum disertakan sebagai binary asset pada commit prototype ini karena file gambar sebelumnya tidak tersedia untuk diambil kembali dari storage saat pengerjaan.
-
-Saat file logo asli tersedia, simpan sebagai:
-
-```
-assets/logo-koalesi.png
-```
-
-Kemudian ganti placeholder logo pada `index.html` dengan:
-
-```html
-<img src="assets/logo-koalesi.png" alt="Logo PT. Koalesi Group Indonesia">
-```
-
-Jangan menggambar ulang logo secara manual.
-
-## Foto
-
-Semua foto proyek saat ini menggunakan placeholder.
-
-Foto asli nantinya dapat disimpan di:
-
-```
-assets/
-├── billboard/
-└── portfolio/
-```
-
-## Prinsip Data
-
-Tidak ada alamat, kota, ukuran, koordinat, jumlah klien, jumlah proyek, traffic, atau klaim lain yang boleh dibuat-buat.
-
-Data 27 billboard akan berasal dari informasi asli perusahaan.
-
-## Kontak Resmi
-
-WhatsApp: 0821 9999 2704  
+## Kontak
+WhatsApp: 0821 9999 2704
 Instagram: @koalesiadvertising
+Alamat: Jl. S. Parman No. 14, Bincar, Kec. Padangsidimpuan Utara, Padangsidimpuan 22711
 
-Alamat:
-
-Jl. S. Parman No. 14, Bincar, Kec. Padangsidimpuan Utara, Padangsidimpuan 22711
-
-Tidak ada email perusahaan yang dicantumkan pada prototype.
+Tidak ada email perusahaan yang dicantumkan.

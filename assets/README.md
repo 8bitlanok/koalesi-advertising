@@ -1,30 +1,20 @@
 # Asset Guide
 
-Folder ini disiapkan untuk asset asli Koalesi Advertising.
-
 ## Logo
-
-Simpan logo resmi yang diberikan perusahaan sebagai:
-
-assets/logo-koalesi.png
-
-Jangan membuat ulang logo.
-
-## Billboard
-
-Simpan foto billboard di:
-
-assets/billboard/
-
-Contoh:
-
-assets/billboard/billboard-01.jpg
-assets/billboard/billboard-02.jpg
+Gunakan logo resmi perusahaan. Placeholder saat ini ada di:
+assets/logo-placeholder.svg
 
 ## Portfolio
+Placeholder:
+assets/portfolio/project-01.svg
+assets/portfolio/project-02.svg
+assets/portfolio/project-03.svg
+assets/portfolio/project-04.svg
+assets/portfolio/project-05.svg
 
-Simpan foto hasil pekerjaan di:
+## Billboard
+Nanti foto 27 titik dapat disimpan di:
+assets/billboard/
 
-assets/portfolio/
-
-Gunakan foto asli Koalesi jika tersedia.
+## Aturan
+Jangan memasukkan foto atau data yang belum dikonfirmasi sebagai milik Koalesi.
